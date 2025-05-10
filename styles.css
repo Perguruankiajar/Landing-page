@@ -1,4 +1,4 @@
-navbar {
+.navbar {
   background-color: aliceblue;
   display: flex;
   justify-content: space-between;
@@ -35,6 +35,40 @@ navbar {
 .navbar-nav ul li a:hover::after {
   transform: scaleX(0.5);
 }
+
+/* hero-section */
+.hero-section{
+  margin-top: 4.5rem;
+  padding: 2.5em 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section h1{
+  font-size: 3rem;
+}
+
+.hero-section p{
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+
+.hero-section button{
+  padding: .8rem;
+  background-color: rgb(255,165,0);
+  border: none;
+  border-radius: 7px;
+  color: rgb(255,255,255);
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: background-color .3s ease;
+}
+
+.hero-section button:hover,
+.hero-section button:active{
+  background-color: rgb(166,108,0);
+}
+
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
