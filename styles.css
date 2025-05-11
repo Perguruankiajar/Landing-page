@@ -44,6 +44,10 @@ navbar {
   justify-content: space-between;
 }
 
+.hero-section .konten-kiri{
+  width: 50%;
+}
+
 .hero-section h1{
   font-size: 3rem;
 }
